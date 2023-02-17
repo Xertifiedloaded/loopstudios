@@ -1,0 +1,33 @@
+.main {
+    overflow: hidden;
+    position: relative;
+}
+
+.main>img {
+    width: 100%;
+}
+
+.main>p {
+    position: absolute;
+    bottom: 50px;
+    font-size: 25px;
+    padding: 0 30px;
+    color: white;
+    position: absolute;
+    width: 120px;
+    line-height: 1.2;
+    letter-spacing: 1.2px;
+}
+
+@media screen and (max-width:768px) {
+    .main {
+        height: 150px;
+        position: relative;
+        /* position: static; */
+    }
+
+    .main>p {
+        position: absolute;
+        bottom: 0;
+    }
+}

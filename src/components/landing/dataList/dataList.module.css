@@ -1,0 +1,24 @@
+.main {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
+    row-gap: 20px;
+    column-gap: 20px;
+    align-self: center;
+
+}
+.main .btn{
+    display: none;
+}
+@media screen and (max-width:600px) {
+    .main{
+        padding-top: 10px;
+   
+    }
+    .main .btn{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 30px;
+    }
+}

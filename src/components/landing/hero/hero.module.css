@@ -1,0 +1,40 @@
+.main {
+    background-image: url("../../../assets//images/desktop/image-hero.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    font-family: var(--font-family-josephine);
+}
+
+.main .hero {
+    width: 85%;
+    margin: 0 auto;
+    padding: 150px 0px 100px;
+}
+
+.hero>.heroContent {
+    border: 2px solid white;
+    width: 400px;
+    padding: 10px 30px;
+}
+.hero .heroContent >h2{
+    font-size: 45px;
+    font-weight: 300;
+    color: white;
+    line-height: 1.3;
+    letter-spacing: 4px;
+}
+@media screen and (max-width:768px){
+    .main{
+        height: 500px;
+    }
+        .hero>.heroContent{
+            overflow: hidden;
+      width: 100%;
+      padding: 0;
+        }
+}

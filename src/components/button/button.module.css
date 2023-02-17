@@ -1,0 +1,21 @@
+.main>a {
+    text-decoration: none;
+    color: var(--Dark-Gray);
+    font-size: 12px;
+    letter-spacing: 1.1px;
+    font-family: var(---font-family-alata);
+}
+
+.main a>button {
+    padding: 9px 32px;
+    background: transparent;
+    border: 1px solid var(--Dark-Gray);
+    transition: 1s ease-in-out;
+}
+
+.main a>button:hover {
+    background: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
