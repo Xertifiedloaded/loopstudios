@@ -1,7 +1,6 @@
 import React from 'react'
 import classes from '../footer/footer.module.css'
 import Logo from '../../../assets/images/mobile/logo.svg'
-
 import { Link } from 'react-router-dom'
 import SocialIcons from '../../socialIcon/socialIcons'
 const Footer = () => {
