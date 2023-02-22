@@ -10,25 +10,41 @@
     font-family: var(---font-family-alata);
 }
 
-.main nav {
-    display: flex;
+.mobileIcon {
+    display: none;
 }
 
-.main nav>a {
-    color: white;
+.main nav ul a {
     text-decoration: none;
+    color: white;
 }
 
-.main nav>a:not(:last-child) {
+.main nav ul a:not(:last-child) {
     margin-right: 20px;
 }
 
-.main .logo>img {
-    width: 130px;
-}
-
-@media screen and (max-width:768px) {
-    .main nav {
+@media screen and (max-width:758px) {
+    .main{
+        /* position: relative; */
+    }
+    .close {
         display: none;
+    }
+
+    .open {
+   width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 0px;
+       height: 100vh;
+       background: black;
+    }
+    .open a {
+        margin-top: 10px;
+    }
+
+    .mobileIcon {
+        display: block;
     }
 }
